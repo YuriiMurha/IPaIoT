@@ -17,7 +17,7 @@
         $email = $_POST['email']; 
         $conf_email = $_POST['conf_email']; 
         $password= $_POST['password'];      
-        $f = fopen("info.txt", 'w'); 
+        $f = fopen("input.txt", 'w'); 
         fwrite($f, $name_and_surname."\n"); 
         fwrite($f, $country."\n"); 
         fwrite($f, $city."\n"); 
