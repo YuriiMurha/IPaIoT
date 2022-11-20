@@ -1,0 +1,27 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+body { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: gold; 
+} 
+ 
+form { 
+    display: flex; 
+    flex-direction: column; 
+    width: 700px; 
+} 
+ 
+input { 
+    margin: 5px 0; 
+    padding: 5px; 
+} 
+ 
+button{ 
+    padding: 5px; 
+    background: coral; 
+}
