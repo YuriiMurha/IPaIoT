@@ -3,10 +3,21 @@
 
 <?php
 
-$ison = filter_input(INPUT_POST, 'led', FILTER_SANITIZE_STRING);
-if ($ison) {
+//$ison = filter_input(INPUT_POST, 'led', FILTER_SANITIZE_STRING);
+//if ($ison) {
+//	echo 'LED is ON';
+//} else {
+//	echo 'LED is off';
+//}
+$ledValue = "";
+if(isset($_POST['led_value']))
+{
+    	$ledValue=$_POST['led_value'];
 	echo 'LED is ON';
-} else {
+}
+else
+{
+	$ledValue="0";
 	echo 'LED is off';
 }
 ?>
