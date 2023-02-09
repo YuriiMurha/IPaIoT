@@ -1,4 +1,4 @@
-<input type="checkbox" name="led" value="led_value">
+<input type="checkbox" name="led" value="led">
 <label for="led">LED</label>
 
 <?php
@@ -10,9 +10,9 @@
 //	echo 'LED is off';
 //}
 $ledValue = "";
-if(isset($_POST['led_value']))
+if(isset($_POST['led']))
 {
-    	$ledValue=$_POST['led_value'];
+    	$ledValue=$_POST['led'];
 	echo 'LED is ON';
 }
 else
