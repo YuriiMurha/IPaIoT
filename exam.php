@@ -1,4 +1,4 @@
 <?php
 $button = $_GET["button"];
-echo "button " . $button; 
+echo "button is " . $button; 
 ?>
